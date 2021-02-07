@@ -1,0 +1,10 @@
+sova = 0
+def setup():
+    size(1000,800)
+def draw():
+    global sova
+    if mouseButton==LEFT:
+     line(pmouseX,pmouseY,mouseX,mouseY)
+    if mouseButton==RIGHT:
+     background("#FFFFFC")
+   
